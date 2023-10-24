@@ -1,11 +1,12 @@
 import "./App.css";
 import Header from "./components/header";
+import LandingSection from "./components/LandingSection";
 
 function App() {
   return (
     <>
       <Header />
-      <div>Hello World</div>
+      <LandingSection />
     </>
   );
 }

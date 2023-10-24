@@ -14,7 +14,9 @@ const LandingSection = () => (
     alignItems="center"
     isDarkBackground
     backgroundColor="#2A4365"
-  ></FullScreenSection>
+  >
+    <Avatar name="Tom Wong" src="https://i.pravatar.cc/150?img=7" size="lg" />
+  </FullScreenSection>
 );
 
 export default LandingSection;
